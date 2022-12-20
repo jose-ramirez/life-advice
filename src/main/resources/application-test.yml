@@ -1,0 +1,17 @@
+cloud:
+  aws:
+    sqs:
+      in-queue-name: send-lifeadvice-queue
+      in-queue-url: ${cloud.aws.sqs.endpoint}/queue/${cloud.aws.sqs.in-queue-name}
+      out-queue-name: forward-lifeadvice-queue
+      out-queue-url: ${cloud.aws.sqs.endpoint}/queue/${cloud.aws.sqs.out-queue-name}
+      polling-timeout: 1
+    region:
+      static: us-east-1
+    stack:
+      auto: false
+    hostname: localhost
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
