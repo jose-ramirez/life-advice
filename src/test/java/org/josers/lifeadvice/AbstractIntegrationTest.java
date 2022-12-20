@@ -1,4 +1,4 @@
-package org.josers.localstackdemo;
+package org.josers.lifeadvice;
 
 import com.amazonaws.services.sqs.AmazonSQSAsync;
 import com.amazonaws.services.sqs.AmazonSQSAsyncClientBuilder;

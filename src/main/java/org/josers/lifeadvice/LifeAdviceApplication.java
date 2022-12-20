@@ -1,4 +1,4 @@
-package org.josers.localstackdemo;
+package org.josers.lifeadvice;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.boot.SpringApplication;
@@ -20,7 +20,7 @@ import java.util.Random;
 		org.springframework.cloud.aws.autoconfigure.context.ContextRegionProviderAutoConfiguration.class
 	}
 )
-public class LocalstackDemoApplication {
+public class LifeAdviceApplication {
 
 	@Bean
 	public Random randomSelector() {
@@ -47,7 +47,7 @@ public class LocalstackDemoApplication {
 		}
 	}
 	public static void main(String[] args) {
-		SpringApplication.run(LocalstackDemoApplication.class, args);
+		SpringApplication.run(LifeAdviceApplication.class, args);
 	}
 
 }

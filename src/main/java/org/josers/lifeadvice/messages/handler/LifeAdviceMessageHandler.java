@@ -1,18 +1,16 @@
-package org.josers.localstackdemo.messages.handler;
+package org.josers.lifeadvice.messages.handler;
 
 import com.amazonaws.services.sqs.AmazonSQSAsync;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.josers.localstackdemo.LifeAdviceMessageService;
-import org.josers.localstackdemo.messages.ForwardLifeAdviceMessage;
-import org.josers.localstackdemo.messages.SendLifeAdviceMessage;
+import org.josers.lifeadvice.LifeAdviceMessageService;
+import org.josers.lifeadvice.messages.ForwardLifeAdviceMessage;
+import org.josers.lifeadvice.messages.SendLifeAdviceMessage;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.aws.messaging.listener.annotation.SqsListener;
 import org.springframework.stereotype.Component;
-
-import java.io.FileNotFoundException;
 
 @Slf4j
 @Component

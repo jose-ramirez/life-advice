@@ -1,4 +1,4 @@
-package org.josers.localstackdemo;
+package org.josers.lifeadvice;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

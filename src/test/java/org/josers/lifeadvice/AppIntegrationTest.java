@@ -1,11 +1,11 @@
-package org.josers.localstackdemo;
+package org.josers.lifeadvice;
 
 import com.amazonaws.services.sqs.AmazonSQSAsync;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
-import org.josers.localstackdemo.messages.ForwardLifeAdviceMessage;
-import org.josers.localstackdemo.messages.SendLifeAdviceMessage;
+import org.josers.lifeadvice.messages.ForwardLifeAdviceMessage;
+import org.josers.lifeadvice.messages.SendLifeAdviceMessage;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

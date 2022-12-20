@@ -1,4 +1,4 @@
-package org.josers.localstackdemo.config;
+package org.josers.lifeadvice.config;
 
 import com.amazonaws.services.sqs.AmazonSQSAsync;
 import com.fasterxml.jackson.databind.ObjectMapper;

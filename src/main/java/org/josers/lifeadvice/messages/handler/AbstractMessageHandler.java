@@ -1,7 +1,7 @@
-package org.josers.localstackdemo.messages.handler;
+package org.josers.lifeadvice.messages.handler;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import org.josers.localstackdemo.messages.SendLifeAdviceMessage;
+import org.josers.lifeadvice.messages.SendLifeAdviceMessage;
 
 import java.io.FileNotFoundException;
 

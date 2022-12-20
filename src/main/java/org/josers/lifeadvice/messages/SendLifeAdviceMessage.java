@@ -1,4 +1,4 @@
-package org.josers.localstackdemo.messages;
+package org.josers.lifeadvice.messages;
 
 import lombok.*;
 
@@ -7,10 +7,7 @@ import lombok.*;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class ForwardLifeAdviceMessage {
+public class SendLifeAdviceMessage {
     private String from;
-
     private String to;
-
-    private String message;
 }

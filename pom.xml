@@ -9,10 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>org.josers</groupId>
-	<artifactId>localstack-demo</artifactId>
+	<artifactId>life-advice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>localstack-demo</name>
-	<description>Testing localstack</description>
+	<name>life-advice</name>
 	<properties>
 		<java.version>11</java.version>
 		<testcontainers.version>1.16.2</testcontainers.version>
